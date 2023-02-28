@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Wether</title>
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="shortcut icon" href="public/image/favition.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="error">
+        <h2>No matching location found.</h2>
+        <div class="inputs">
+            <form class="form">
+                <input class="changeloc" type="text" placeholder="los anglas . . .">
+                <button class="submit">submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="load-3">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="container">
+        <div class="left DayNight">
+            <div class="upper-info">
+                <h2 class="city-name"></h2>
+                <p class="contry-name"></p>
+            </div>
+            <div class="bottom-info">
+                <img class="air-info-img" src="public/image/day icon.png" alt="">
+                <h2 class="temp"></h2>
+                <p class="air-info"></p>
+            </div>
+        </div>
+        <div class="right">
+            <h2 class="city-name"></h2>
+            <div class="info">
+                <div class="col">
+                    <p>Wind Spead :</p>
+                    <p class="light-text wind-spead"></p>
+                </div>
+                <div class="col">
+                    <p>Wind Diraction :</p>
+                    <p class="light-text wind-dir"></p>
+                </div>
+                <div class="col">
+                    <p>Wind degree :</p>
+                    <p class="light-text wind-deg"></p>
+                </div>
+            </div>
+            <div class="location">
+                <button class="change-location DayNight">Change location</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="close">
+            <i class="close" style="color: red;">X</i>
+        </div>
+        <h4>select your contry</h4>
+        <div class="inputs">
+            <form class="form">
+                <input class="changeloc" type="text" placeholder="los anglas . . .">
+                <button class="submit">submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/cb3efb7182.js" crossorigin="anonymous"></script>
+    <script src="public/js/app.js"></script>
+</body>
+
+</html>
